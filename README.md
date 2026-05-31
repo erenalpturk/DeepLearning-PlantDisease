@@ -1,8 +1,10 @@
 # Yaprak Hastalığı Sınıflandırma (PlantVillage + YOLO11)
 
 **Ders:** Derin Öğrenme ve Evrişimli Sinir Ağları
+
 **Öğretim Üyesi:** Doç. Dr. Yusuf Uzun
-**Öğrenci:** Alp Eren Türk — 24370031078
+
+**Öğrenci:** Alp Eren Türk - 24370031078
 
 ---
 
