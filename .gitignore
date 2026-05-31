@@ -1,0 +1,13 @@
+# Veri seti (üretilir, ~20k görsel)
+data/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Arşivler / geçici kopyalar
+*.zip
+plant_classification_teslim/

@@ -1,0 +1,8 @@
+# Ödevin tüm Python bağımlılıkları.
+# ultralytics: YOLO11 sınıflandırma modeli + eğitim/değerlendirme/tahmin API'si.
+#             (torch'u kendisi uygun sürümle birlikte kurar — ayrıca yazmaya gerek yok.)
+# scikit-learn: evaluate.py'deki sınıf bazlı precision/recall/F1 raporu (classification_report) için.
+# matplotlib: ultralytics'in ürettiği grafikler (results.png, confusion_matrix.png) için gereken çizim kütüphanesi.
+ultralytics
+scikit-learn
+matplotlib
