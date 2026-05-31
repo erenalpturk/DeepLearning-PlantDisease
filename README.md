@@ -59,18 +59,19 @@ ayrıntılı yorum: [SONUCLAR.md](SONUCLAR.md)
 
 ### Örnek tahminler (predict.py)
 
-Test setinden seçilen görseller üzerinde tahminler (Google Colab çıktısı). Görseller
-PlantVillage'ın temiz laboratuvar görselleri (in-distribution) olduğu için model bu
-örneklerde ~%100 güven veriyor.
+**Test setinden (temiz lab görseli):** Görsel modelin eğitildiği dağılımdan
+(in-distribution) olduğu için tahmin ~%100 güvenle yapılıyor.
 
 Tomato — Late blight
 ![Tahmin: Tomato Late blight](screenshots/tahmin_tomato_late_blight.png)
 
-Potato — Early blight
-![Tahmin: Potato Early blight](screenshots/tahmin_potato_early_blight.png)
+**Gerçek dünya (saha) görseli — modelin genelleme sınırı:** İnternetten alınan,
+doğal arka planlı bir yaprak. Model yine en olası sınıfı buluyor ama güven %100'den
+**%92.20**'ye düşüyor ve olasılığın bir kısmını yakın bir sınıfa dağıtıyor
+(Potato Early blight %7.15). Yani sadece temiz lab görselleriyle eğitilen model,
+saha görsellerinde daha temkinli/belirsiz davranıyor.
 
-Tomato — Yellow Leaf Curl Virus
-![Tahmin: Tomato Yellow Leaf Curl Virus](screenshots/tahmin_tomato_ylcv.png)
+![Gerçek dünya tahmini](screenshots/tahmin_gercek_dunya.png)
 
 ## Kurulum ve çalıştırma
 
