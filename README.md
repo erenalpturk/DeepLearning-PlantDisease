@@ -57,11 +57,20 @@ Hataların tamamı domates sınıfları arasında: en çok `Target_Spot` ile
 `Early_blight` karıştı (yaprak üzerindeki kahverengi leke desenleri benzer). Daha
 ayrıntılı yorum: [SONUCLAR.md](SONUCLAR.md)
 
-### Örnek tahmin (predict.py)
-```
-$ python predict.py yaprak.jpg
-Bitki: Tomato | Durum: Late blight | Güven: %96.40
-```
+### Örnek tahminler (predict.py)
+
+Test setinden seçilen görseller üzerinde tahminler (Google Colab çıktısı). Görseller
+PlantVillage'ın temiz laboratuvar görselleri (in-distribution) olduğu için model bu
+örneklerde ~%100 güven veriyor.
+
+Tomato — Late blight
+![Tahmin: Tomato Late blight](screenshots/tahmin_tomato_late_blight.png)
+
+Potato — Early blight
+![Tahmin: Potato Early blight](screenshots/tahmin_potato_early_blight.png)
+
+Tomato — Yellow Leaf Curl Virus
+![Tahmin: Tomato Yellow Leaf Curl Virus](screenshots/tahmin_tomato_ylcv.png)
 
 ## Kurulum ve çalıştırma
 
